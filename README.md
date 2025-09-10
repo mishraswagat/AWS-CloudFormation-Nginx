@@ -40,7 +40,6 @@ aws --version
  - Save Access Key ID and Secret Key securely
 
 ### ⚙️ Configure AWS CLI
-```bash
 aws configure
 
 ### Provide:
@@ -48,7 +47,14 @@ aws configure
  - AWS Secret Access Key: <YOUR_SECRET>
  - Default region name: us-east-1    # or your preferred region
  - Default output format: json
-
+### Verify:
+ - aws sts get-caller-identity
+### Expected output:
+ - {
+ - "UserId": "AIDASAMPLEUSERID",
+ - "Account": "123456789012",
+ - "Arn": "arn:aws:iam::123456789012:user/cloudformation-user"
+ - }
 
 
 
