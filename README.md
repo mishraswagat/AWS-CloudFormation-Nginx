@@ -115,11 +115,11 @@ aws cloudformation delete-stack --stack-name NginxOnEC2
 
 ### ✅ Summary
 
-⭐ Installed and configured AWS CLI
-⭐ Created IAM user and EC2 key pair
-⭐ Built CloudFormation template (ec2-nginx.yml)
-⭐ Deployed NGINX server on EC2
-⭐ Retrieved public URL & tested deployment
-⭐ Cleaned up resources
+- ⭐ Installed and configured AWS CLI
+- ⭐ Created IAM user and EC2 key pair
+- ⭐ Built CloudFormation template (ec2-nginx.yml)
+- ⭐ Deployed NGINX server on EC2
+- ⭐ Retrieved public URL & tested deployment
+- ⭐ Cleaned up resources
 
 
