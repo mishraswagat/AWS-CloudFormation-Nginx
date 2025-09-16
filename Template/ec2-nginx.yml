@@ -132,9 +132,9 @@ Resources:
           GroupSet:
             - !Ref WebServerSecurityGroup
           SubnetId: !Ref PublicSubnet
-      BlockDeviceMapping:
+      BlockDeviceMappings:
         - DeviceName: /dev/xvda
-          EBS:
+          Ebs:
             VolumeSize: 15
             VolumeType: gp2
             DeleteOnTermination: true
